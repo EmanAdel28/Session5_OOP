@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using Assignment5_OOP.FirstProject;
+using Assignment5_OOP.SecondProject;
 
 namespace Assignment5_OOP
 {
@@ -92,6 +93,37 @@ namespace Assignment5_OOP
 
             //P2 = (Point3D)P1.Clone();
             //Console.WriteLine(P2);
+
+            #endregion
+
+            #region Second Project
+            // Define Class Maths that has four methods: Add, Subtract, Multiply, and Divide,
+            // each of them takes two parameters. Call each method in Main ().
+            // Modify the program so that you do not have to create an instance of class to call the four methods.
+
+
+
+
+            // Before Modifing
+            //Maths maths = new Maths();
+            //Console.WriteLine($" Add : {maths.Add(1, 2)}");
+            //Console.WriteLine($" Subtract : {maths.Subtract(4, 3)}");
+            //Console.WriteLine($" Multiply : {maths.Multiply(2, 3)}");
+            //Console.WriteLine($" Divide : {maths.Divide(10, 5)}");
+
+            // Afer Modify
+            //try
+            //{
+            //    Console.WriteLine($" Add : {Maths.Add(1, 2)}");
+            //    Console.WriteLine($" Subtract : {Maths.Subtract(4, 3)}");
+            //    Console.WriteLine($" Multiply : {Maths.Multiply(2, 3)}");
+            //    Console.WriteLine($" Divide : {Maths.Divide(10, 5)}");
+            //}
+            //catch( Exception e )
+            //{
+            //    Console.WriteLine(e.Message );
+            //}
+
             
             #endregion
         }
